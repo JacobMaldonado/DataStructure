@@ -1,5 +1,6 @@
-package colas;
+package listas;
 
+import colas.*;
 import java.util.*;
 import javax.swing.JOptionPane;
 

@@ -1,5 +1,8 @@
-package colas;
+package listas;
 
+// clase Nodo con las dos partes de un nodo y su constructor
+
+import colas.*;
 // clase Nodo con las dos partes de un nodo y su constructor
 public class Nodo {
 

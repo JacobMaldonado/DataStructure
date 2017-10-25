@@ -1,4 +1,6 @@
-package colas;
+package listas;
+
+import colas.*;
 
 public class Lista {
 
@@ -13,8 +15,12 @@ public class Lista {
     }
 
     public Lista insertarCabezaLista(String entrada) {
-        ultimo.enlace = primero;
-        primero = ultimo;
+        Nodo nuevo = new Nodo(entrada);   
+        
+        nuevo.enlace = primero;
+        primero = nuevo;
+        if(ultimo == null)
+            ultimo = primero;
         contador++;
         return this;
     }
@@ -77,7 +83,7 @@ public class Lista {
         encontrado = false;
 // búsqueda del nodo y del anterior
         while ((actual != null) && (!encontrado)) {
-            encontrado = (actual.dato == entrada);
+            encontrado = (actual.dato.equals(entrada));
 //con objetos: actual.dato.equals(entrada)
             if (!encontrado) {
                 anterior = actual;

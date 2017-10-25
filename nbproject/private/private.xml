@@ -4,10 +4,13 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/colas/ColaCircular.java</file>
-            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/colas/Nodo.java</file>
-            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/colas/ListaAleatoria.java</file>
-            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/colas/Menu2.java</file>
-            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/colas/Lista.java</file>
+            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/listas/Nodo.java</file>
+            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/listas/MenuListaCircular.java</file>
+            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/listas/NodoCircular.java</file>
+            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/listas/MenuListasEnlazadas.java</file>
+            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/listas/Lista.java</file>
+            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/listas/ListaCircular.java</file>
+            <file>file:/C:/Users/jacob/Documents/NetBeansProjects/EstructuraDeDatos/src/listas/ListaAleatoria.java</file>
         </group>
     </open-files>
 </project-private>
