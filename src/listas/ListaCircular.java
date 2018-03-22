@@ -8,12 +8,15 @@ package listas;
 public class ListaCircular {
 
     private NodoCircular lc;
+    private int contador;
 
-    public ListaCircular() {;
+    public ListaCircular() {
+        contador = 0;
     }
 
     public ListaCircular insertar(Object entrada) {
         NodoCircular nuevo;
+        contador ++;
         nuevo = new NodoCircular(entrada);
         if (lc != null) // lista circular no vacía
         {
@@ -37,6 +40,7 @@ public class ListaCircular {
 // si se ha encontrado el nodo.
         if (actual.enlace.dato.equals(entrada)) {
             NodoCircular p;
+            contador --;
             p = actual.enlace; // Nodo a eliminar
             if (lc == lc.enlace) // Lista con un solo nodo
             {
@@ -54,13 +58,16 @@ public class ListaCircular {
 
     public boolean buscar(Object entrada){
         NodoCircular actual;
+        int cont = 0;
         actual = lc;
-        while ((actual.enlace != lc)
-                && !(actual.enlace.dato.equals(entrada))) {
+        do {
+            
             if (actual.enlace.dato.equals(entrada)) {
                 return true;
             }
-        }
+            actual = actual.enlace;
+            cont ++;
+        }while ((actual != lc) && contador > cont );
         return false;
     }
     
